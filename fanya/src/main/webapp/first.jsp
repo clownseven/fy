@@ -9,8 +9,8 @@
 </head>
 <body>
 	<div>
-		<form action="validate.jsp" name="login">
-			用户名 <input name="username" type="text" /><br />
+		<form action="validate.jsp"  method="post">
+			用户名 <input name="name" type="text" /><br />
 			<br /> 密 &nbsp;&nbsp;码 <input name="password" type="password" /><br />
 			<br /> <input class="submit" type="submit">
 		</form>
